@@ -72,8 +72,8 @@ margin-bottom:12px;
     justify-content: space-between;
 }
 .title{
-    margin-top: 30px;
-    font-size:50px;
+    margin-top: 35px;
+    font-size:55px;
     font-weight: 700;
     margin-bottom:20px;
 }
@@ -81,6 +81,7 @@ margin-bottom:12px;
    color:#707070;
    font-size:  18px;
    font-weight: 700;
+   margin-bottom:35px;
 }
 .season_block{
     width:250px;
@@ -97,4 +98,326 @@ margin-bottom:12px;
 }
 .season_block img{
     height: 14px;
+}
+.teams_wrapper{
+margin-top:40px;
+display:flex;
+flex-flow:wrap;
+}
+.teams_block{
+display:flex;
+width:315px;
+height:100px;
+background-color: #fff;
+border-radius: 12px;
+margin-right:18px;
+margin-bottom:20px;
+transition: 0.15s;
+}
+.teams_block:hover{
+    transform: scale(1.07);
+}
+.logo_name{
+    align-items: center;
+    display:flex;
+    margin-top:14px;
+    font-size:14px;
+    font-weight: 600;
+}
+.logo_name img{
+    height: 60px;
+    margin-right:28px;
+    margin-left:10px;
+}
+.line_alba{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 100px 35px 0 0;
+    border-color: #f8d347 transparent transparent transparent;
+    border-radius: 4px;
+    border-bottom-left-radius: 10px;
+}
+.line_efes{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 100px 35px 0 0;
+    border-color: #0f2c70 transparent transparent transparent;
+    border-radius: 4px;
+    border-bottom-left-radius: 10px;
+}
+.line_monaco{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 100px 35px 0 0;
+    border-color: #d0382b transparent transparent transparent;
+    border-radius: 4px;
+    border-bottom-left-radius: 10px;
+}
+.line_baskonia{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 100px 35px 0 0;
+    border-color: #10213e transparent transparent transparent;
+    border-radius: 4px;
+    border-bottom-left-radius: 10px;
+}
+.line_zvezda{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 100px 35px 0 0;
+    border-color: #d63832 transparent transparent transparent;
+    border-radius: 4px;
+    border-bottom-left-radius: 10px;
+}
+.line_milano{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 100px 35px 0 0;
+    border-color: #cf3b2c transparent transparent transparent;
+    border-radius: 4px;
+    border-bottom-left-radius: 10px;
+}
+.line_barca{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 100px 35px 0 0;
+    border-color: #133380 transparent transparent transparent;
+    border-radius: 4px;
+    border-bottom-left-radius: 10px;
+}
+.line_bayern{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 100px 35px 0 0;
+    border-color: #cf343e transparent transparent transparent;
+    border-radius: 4px;
+    border-bottom-left-radius: 10px;
+}
+.line_fener{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 100px 35px 0 0;
+    border-color: #fcee4f transparent transparent transparent;
+    border-radius: 4px;
+    border-bottom-left-radius: 10px;
+}
+.line_asvel{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 100px 35px 0 0;
+    border-color: #929292 transparent transparent transparent;
+    border-radius: 4px;
+    border-bottom-left-radius: 10px;
+}
+.line_maccabi{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 100px 35px 0 0;
+    border-color: #fdf150 transparent transparent transparent;
+    border-radius: 4px;
+    border-bottom-left-radius: 10px;
+}
+.line_oly{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 100px 35px 0 0;
+    border-color: #c02a2a transparent transparent transparent;
+    border-radius: 4px;
+    border-bottom-left-radius: 10px;
+}
+.line_panata{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 100px 35px 0 0;
+    border-color: #306f3b transparent transparent transparent;
+    border-radius: 4px;
+    border-bottom-left-radius: 10px;
+}
+.line_partizan{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 100px 35px 0 0;
+    border-color: #1d1d1b transparent transparent transparent;
+    border-radius: 4px;
+    border-bottom-left-radius: 10px;
+}
+.line_real{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 100px 35px 0 0;
+    border-color: #1c4891 transparent transparent transparent;
+    border-radius: 4px;
+    border-bottom-left-radius: 10px;
+}
+.line_valencia{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 100px 35px 0 0;
+    border-color: #ed7532 transparent transparent transparent;
+    border-radius: 4px;
+    border-bottom-left-radius: 10px;
+}
+.line_virtus{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 100px 35px 0 0;
+    border-color: #1d1d1b transparent transparent transparent;
+    border-radius: 4px;
+    border-bottom-left-radius: 10px;
+}
+.line_zalgiris{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 100px 35px 0 0;
+    border-color: #316d43 transparent transparent transparent;
+    border-radius: 4px;
+    border-bottom-left-radius: 10px;
+}
+.second_advert{
+    margin-top:15px;
+    text-align: center;
+    margin-bottom:15px;
+    align-items: flex-end;
+}
+.logo_sec{
+    margin-left:30px;
+    margin-right:250px;
+    filter:invert(0.3);
+}
+.logo_sec img{
+    height: 60px;
+}
+.new_cover{
+background-color:#1b1b1e;
+height: 600px;
+}
+.new_cover_size{
+    margin:0 auto;
+    width:80%;
+}
+.new_cover_wrap{
+    padding-top:150px;
+    display:flex;
+}
+.tabela_sponzor{
+    color:white;
+}
+.ikonka img{
+    height: 50px;
+}
+.ikonka1 img{
+    height:50px;
+}
+.ikonka2 img{
+    filter:invert(1);
+    height:50px;
+}
+.ikonka3 img{
+    height:50px;
+}
+.ikonka4 img{
+    filter:invert(2);
+    height:50px;
+}
+.ikonka5 img{
+    filter:invert(1);
+    height:50px;
+}
+.ikonka6 img{
+    filter:invert(1);
+    height:50px;
+}
+.ikonka7 img{
+    height:50px;
+}
+.ikonka{
+    padding:10px;
+    width: 260px;
+    text-align: center;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.ikonka1{
+    padding:10px;
+    width: 260px;
+    text-align: center;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.ikonka2{
+    padding:10px;
+    width: 260px;
+    text-align: center;
+    border-right: 1px solid black;
+}
+.ikonka3{
+    padding:10px;
+    width: 260px;
+    text-align: center;
+    border-right: 1px solid black;
+}
+.ikonka4{
+    padding:10px;
+    width: 260px;
+    text-align: center;
+    border-right: 1px solid black;
+}
+.ikonka5{
+    padding:10px;
+    width: 260px;
+    text-align: center;
+    border-left:1px solid black ;
+    border-right: 1px solid black;
+}
+.ikonka6{
+    padding:10px;
+    width: 260px;
+    text-align: center;
+    border-right: 1px solid black;
+}
+.ikonka7{
+    padding:10px;
+    width: 260px;
+    text-align: center;
+    border-right: 1px solid black;
+}
+.tabela_sponzor{
+    height: 600px;;
+}
+table td{
+    text-align: center;
+   font-size:20px; 
+   width:250px;
+}
+table tr{
+    margin-bottom: 30px;
+}
+.footer{
+    background-color: black;
+    height: 300px;
+}
+.size_footer{
+    width:80%;
+    margin:0 auto;
+}
+.footer_wrapper{
+    color: white;
 }
