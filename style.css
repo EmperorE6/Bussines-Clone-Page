@@ -14,8 +14,6 @@ margin:0;
 }
 .header{
     width:100%;
-    position: fixed;
-    top:120px;
     height:100px;
     display:flex;
     justify-content: space-between;
@@ -24,6 +22,11 @@ margin:0;
     background-color: #fff;
     z-index: 3;
 }
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
 .menu{
     display: flex;
     justify-content:space-between;
